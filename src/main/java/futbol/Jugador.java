@@ -13,7 +13,8 @@ public class Jugador extends Futbolista{
         this.dorsal = dorsal;
     }
     public Jugador(){
-        this.golesMarcados = 286;
+        // super();
+        this.golesMarcados = 289;
         this.dorsal = 7;
     }
 
@@ -24,7 +25,7 @@ public class Jugador extends Futbolista{
 
     @Override
     public String toString() {
-        return "El futbolista " + getNombre() + "tiene " + getEdad() + ", y juega de " + getPosicion() +
+        return "El futbolista " + getNombre() + " tiene " + getEdad() + ", y juega de " + getPosicion() +
         " con el dorsal " + dorsal + ". Ha marcado " + golesMarcados;
     }
 
